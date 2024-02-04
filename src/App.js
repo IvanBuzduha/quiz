@@ -4,40 +4,6 @@ import questions from "./quesrtions.json";
 import { Game } from "./components/Game.jsx";
 import { Result } from "./components/Result.jsx";
 
-
-// function Result({correct}) {
-//   return (
-//     <div className="result">
-//       <img src="https://cdn-icons-png.flaticon.com/512/2278/2278992.png" />
-//       <h2>You guessed {correct} answers from {questions.length} </h2>
-//      <a href="/"> <button>Try again</button></a>
-//     </div>
-//   );
-// }
-
-// function Game({ question, onClickVariant, step }) {
-//   const percentage = Math.round((step / questions.length) * 100);
-//   console.log("percentage", percentage);
-//   return (
-//     <>
-//       <div className="progress">
-//         <div
-//           style={{ width: `${percentage}%` }}
-//           className="progress__inner"
-//         ></div>
-//       </div>
-//       <h1>{question.title}</h1>
-//       <ul>
-//         {question.variants.map((text, index) => (
-//           <li onClick={() => onClickVariant(index)} key={text}>
-//             {text}
-//           </li>
-//         ))}
-//       </ul>
-//     </>
-//   );
-// }
-
 function App() {
   const [step, setStep] = useState(0);
   const [correct, setCorrect] = useState(0);
