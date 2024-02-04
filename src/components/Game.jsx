@@ -1,5 +1,5 @@
 import "../index.scss";
-import questions from "../quesrtions.json";
+import questions from "../questions.json";
 export const Game = ({ question, onClickVariant, step }) => {
   const percentage = Math.round((step / questions.length) * 100);
 //   console.log("percentage", percentage);

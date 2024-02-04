@@ -1,8 +1,9 @@
 import { useState } from "react";
 import "./index.scss";
-import questions from "./quesrtions.json";
-import { Game } from "./components/Game.jsx";
+import questions from "./questions.json";
+
 import { Result } from "./components/Result.jsx";
+import { Game } from "./components/game.jsx";
 
 function App() {
   const [step, setStep] = useState(0);

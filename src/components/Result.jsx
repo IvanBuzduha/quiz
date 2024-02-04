@@ -1,5 +1,5 @@
 import "../index.scss";
-import questions from "../quesrtions.json";
+import questions from "../questions.json";
 import trophy from './trophy.png';
 export const Result=({correct}) =>{
     return (

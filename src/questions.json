@@ -26,7 +26,7 @@
       },
       {
         "title": "What are the lifecycle methods in React?",
-        "variants": ["unRrender()", "render()", "shouldComponentRender()"],
+        "variants": ["unRender()", "render()", "shouldComponentRender()"],
         "correct": 1
       },
       {
