@@ -1,0 +1,45 @@
+[
+    {
+      "title": "React - this is ... ?",
+      "variants": ["library", "framework", "application"],
+      "correct": 0
+    },
+    {
+        "title": "The component is ... ?",
+        "variants": ["application", "part of an application or page", "I don't know what it is"],
+        "correct": 1
+      },
+    {
+        "title": "What is JSX?",
+        "variants": ["this is simple HTML", "this is a function", "this is the same HTML, but with the ability to execute JS code"],
+        "correct": 2
+      },
+    {
+        "title": "What is Virtual DOM for React?",
+        "variants": ["improves performance on the client side", "work directly with the DOM", "this concept slows things down"],
+        "correct": 0
+      },
+    {
+        "title": "The props features?",
+        "variants": ["for recording only", "they should be changed", "passed from parent to child"],
+        "correct": 2
+      },
+      {
+        "title": "What are the lifecycle methods in React?",
+        "variants": ["unRrender()", "render()", "shouldComponentRender()"],
+        "correct": 1
+      },
+      {
+        "title": "setState function is?",
+        "variants": ["asynchronous", "synchronous", "parallel"],
+        "correct": 0
+      },
+      {
+        "title": "What is context?",
+        "variants": ["this is a way to share data between components", "this is a way to render a component", "I don't know what it is"],
+        "correct": 0
+      }
+   ]
+
+
+
