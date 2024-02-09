@@ -3,7 +3,7 @@ import "./index.scss";
 import questions from "./questions.json";
 
 import { Result } from "./components/Result.jsx";
-import { Game } from "./components/game.jsx";
+import { Game } from "./components/Game.jsx";
 
 function App() {
   const [step, setStep] = useState(0);
